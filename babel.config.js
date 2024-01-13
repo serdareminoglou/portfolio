@@ -3,7 +3,7 @@ module.exports = function (api) {
     return {
         plugins: [
             'macros',
-            '@babel/plugin-proposal-private-property-in-object'
+            '@babel/plugin-transform-private-property-in-object'
         ],
 
     }

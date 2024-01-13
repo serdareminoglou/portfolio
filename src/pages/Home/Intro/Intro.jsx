@@ -19,7 +19,7 @@ const Intro = () => {
 
     const children = [
         <div style={{ paddingBottom: 15 }} className="hithere font-2-4">
-            Hi There !
+            Hi There!
         </div>,
         <h1 className='myname mb-1x font-2-4'>
             <DecoderText text={`I’m ${myName}`} eachCharClass="namechar" delay={250} />

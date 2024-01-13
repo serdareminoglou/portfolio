@@ -4,18 +4,18 @@ import { delay } from '../../utils/delay';
 import { classes } from '../../utils/style';
 import styles from './DecoderText.module.css';
 
-const hindi = [
-    'क', 'ख', 'ग', 'घ',
-    'च', 'छ', 'ज', 'झ', 'ञ',
-    'ट', 'ठ', 'ड', 'ढ', 'ण',
-    'त', 'थ', 'द', 'ध', 'न',
-    'प', 'फ', 'ब', 'भ', 'म',
-    'य', 'र', 'ल', 'व',
-    'श', 'ष', 'स', 'ह', 'क्ष',
-    'त्र', 'र',
+const cyrillicSerbian = [
+    'Ж', 'Г', 
+    'Ч', 'Њ',
+    'Џ', 'ГЊ', 
+    'Д', 'П',
+    'Ф', 'Б',
+    'Л', 'Њ',
+    'Ш', 'КШ',
 ];
 
-const glyphs = hindi;
+
+const glyphs = cyrillicSerbian;
 
 const CharType = {
     Glyph: 'glyph',

@@ -40,7 +40,7 @@ const dateFormatter = new Intl.DateTimeFormat('en-US', {
     hour: 'numeric',
     minute: 'numeric',
     second: 'numeric',
-    timeZone: 'Asia/Kolkata', // India time zone
+    timeZone: 'Europe/London',
     timeZoneName: 'short',
 });
 

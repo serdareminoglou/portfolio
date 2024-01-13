@@ -13,118 +13,133 @@ export const introAnimatedText = [
     "Developer",
     "Programmer",
     "Tech Enthusiast",
-    "Gamer"
+    "Gamer",
+    "Solution Seeker"
 ];
-export const myName = "Aman Arya";
-export const shortDescription = "MERN and Full Stack Developer";
+export const myName = "Ivana";
+export const shortDescription = "Junior Full Stack Developer";
 
 export const socialMediaDetails = [
     {
         name: 'GitHub',
-        url: 'https://github.com/Am4nn',
+        url: 'https://github.com/SheLearningCode',
     },
     {
         name: 'Linkedin',
-        url: 'https://www.linkedin.com/in/aman-arya-79a52121b',
+        url: 'https://www.linkedin.com/in/ivana-maksimovic-870108225',
     },
     {
         name: 'Instagram',
-        url: 'https://www.instagram.com/am4n_arya',
+        url: 'https://www.instagram.com/ivn.mksm',
     },
     {
         name: 'Email',
-        url: 'mailto:125aryaaman@gmail.com',
+        url: 'mailto:maksimovic.ivana@protonmail.com',
     }
 ];
 
 export const skills = [
     {
         name: "Languages",
-        items: ["C", "C++", "Java", "Python", "HTML/CSS", "Javascript", "Typescript"],
+        items: ["Java", "Kotlin", "HTML/CSS", "Javascript", "YAML", "SQL"],
     },
     {
-        name: "Web Development",
-        items: ["React", "NextJs", "Node", "Redux", "Boot", "RestAPI", "ExpressJs", "SocketIO", "MUI"],
+        name: "Frameworks&Libraries",
+        items: ["ReactJs","TailwindCSS", "ThreeJs", "EmailJs","i18n", "SpringBoot", "RestAPI", "Quarkus"],
     },
     {
         name: "Database",
-        items: ["MySQL", "MongoDB", "Redis"],
+        items: ["MySQL", "PostgreSQL","Flyway DB-Migration", "Hibernate ORM"],
     },
     {
         name: "Tools/Software/Others",
-        items: ["Git", "Github", "VSCode", "IntellijIdea", "Docker", "Postman", "OpenGL", "Other"],
+        items: ["Git", "Docker-Compose", "Postman", "Keycloak", "Confluence", "AzureDevOps","Linux"],
     },
 ];
 
 export const experiences = [
     {
-        title: "Summer Analyst",
-        company_name: "Goldman Sachs Pvt Ltd",
+        title: "Trainee Fullstack Software Development",
+        company_name: "Novatec Consulting GmbH",
         bottomColor: "#6d92bf",
-        icon: "/company/Goldman_Sachs.png",
-        date: "May 2023 - July 2023",
+        icon: "/company/novatec-logo.png",
+        date: "August 2022 - July 2023",
         points: [
-            "Engaged in the Goldman Sachs team maintaining client fee calculation applications, implementing 10+ efficiency-focused enhancements",
-            "Implemented a feature enabling users to charge fees as last year to bulk accounts in one click, reducing process time by 85% while ensuring reliability with 20+ JUnit test cases",
-            "Optimized user experience by decreasing UI loading time by 76% through enhanced MongoDB queries",
-            "Rectified over 15 bugs within the internal fee calculation application"
+            "Engaged in the Novatec team maintaining client microservice applications, implementing 10+ efficiency-focused enhancements",
+            "Implemented a multi tenancy schema approach enabling dynamic tenant registration on the fly, reducing process time by 85% while ensuring reliability with JUnit test cases",
+            "Tooling research and implementation(security-checker tool, bug-checkerTool etc.), which improved Code Quality and Continious Integration",
+            "Rectified over 15 bugs within the internal team transparency application"
         ],
     },
     {
-        title: "Exam Module 2",
-        company_name: "SGSITS Indore",
+        title: "German Language Teacher",
+        company_name: "Tekaris GmbH",
         bottomColor: "#f1df87",
-        icon: "/company/SGSITS_Logo.png",
-        date: "Feb 2023 - Apr 2023",
+        icon: "/company/tekaris-logo.png",
+        date: "Jan 2017 - Apr 2021",
         points: [
-            "Developed a robust web-based system to automate the examiner allocation process for multiple departments within the college",
-            "Implemented various functionalities to simplify the examiner allocation workflow",
-            "Built a user-friendly interface with React. Leveraged SQL for efficient database management and Nodejs for integration"
+            "German language courses for beginners, intermediate and advanced students coupled with integrtion courses",
+            "Exam Preparations for A1/A2/B1/B2/C1 certificates, archieved more then 20+ successfull graduates",
+            "Office Assistence helping out in HR by improving social media user frequency up to 40%"
         ],
     },
     {
-        title: "Senior Coordinator",
-        company_name: "#include Club SGSITS",
+        title: "Technical Customer Support BMW",
+        company_name: "GKK Dialog Group",
         bottomColor: "#bc1010",
-        icon: "/company/Hash_Include.png",
-        date: "Oct 2021 - present",
+        icon: "/company/gkk-logo.png",
+        date: "Feb 2013 - Nov 2016",
         points: [
-            "Developing and maintaining web applications for hackindore using Nextjs and other related technologies",
-            "With the assistance of other coordinators, successfully organized events and guided sessions for students",
-            'Speaker at "Tech-tonic" a programming road-map for freshers',
+            "1st-Level Inbound: technical customer support for BMW Connected Drive, solving technical customer problems",
+            "2nd-Level Outbound: selling tire charge service, which increased the sales volume up to 45%",
+            "Coordinated and organized more then 50 BMW-Welt car pickup appointments for new customers",
         ],
     }
 ];
 
 export const projectsData = [
     {
-        title: 'Online-Judge',
-        desciption: 'Build a platform that remotely runs and compiles user submitted code for a programming problem securely and judges if the code is correct/wrong',
-        tech: ['Nodejs', 'React', 'Docker', 'Redis', 'MongoDB', 'Expressjs', 'JWT'],
-        github: 'https://github.com/Am4nn/Online-Judge-Project',
-        external: 'https://oj.amanarya.com',
-        image: '/projects/oj-front.png'
+        title: 'Student-Courses CRM',
+        desciption: 'Build a CRM platform that helps avoiding tons of papers, organizing students courses while maintaining the m:n relationship and utilizing CRUD operations',
+        tech: ['Kotlin', 'Spring Boot', 'Docker-Compose', 'MVC', 'PostgreSQL', 'CRUD', 'RestAPI'],
+        github: 'https://github.com/SheLearningCode/springboot-crm-backend',
+        image: '/projects/img1.png'
     },
     {
-        title: 'Portfolio',
-        desciption: 'Crafted an engaging portfolio site with ReactJS and Three.js, enhancing user interaction through a serverless feedback system powered by a custom API',
-        tech: ['Nodejs', 'React', 'Threejs', 'Nodemailer', 'MUI', 'Bootstrap', 'drei'],
-        github: 'https://github.com/Am4nn/Portfolio-Website',
-        external: 'https://www.amanarya.com',
-        image: '/projects/portfolio-front.png'
+        title: '3D Portfolio',
+        desciption: 'Crafted an engaging 3D portfolio site with ReactJS and Three.js, enhancing user interaction through interactive animations while presenting projects and skills',
+        tech: ['3rf', 'React', 'Threejs', 'Blender', 'Mixamo', 'Vercel-Hosting'],
+        github: 'https://github.com/SheLearningCode/personal-3dportfolio-website',
+        external: 'https://personal-3dportfolio-website.vercel.app/',
+        image: '/projects/img2.png'
     },
     {
-        title: 'Draw-Graphs',
-        desciption: 'Designed a Java Swing app for user-friendly equation input and dynamic graph visualization, showcasing strong Java and GUI development skills',
-        tech: ['Java', 'Java-Swing', 'Java-Collections'],
-        github: 'https://github.com/Am4nn/Draw-Graphs',
-        image: '/projects/draw-graph-front.png'
+        title: 'Sorting Algorithms Visualizer',
+        desciption: 'Designed sorting algoithms visualizer for user-friendly equation input and dynamic graph visualization, increasing users understanding of sorting concepts while comparing them visually',
+        tech: ['Java', 'Java-Swing/AWT', 'MySQL','Sorting Algorithms'],
+        github: 'https://github.com/SheLearningCode/sorting-algorithms-visualizer-java',
+        image: '/projects/img3.jpeg'
     },
     {
-        title: 'Super-Mario',
-        desciption: "Designed and developed 'Super Mario', a captivating 2D game using C++ and the SFML, showcasing shader programming skills for visually stunning effects in the user interface",
-        tech: ['Cpp', 'SFML', 'Shader', 'Vector', 'CMake'],
-        github: 'https://github.com/Am4nn/Super-Mario-SFML',
-        image: '/projects/super-mario-front.png'
+        title: 'Multi-Tenancy Schema Approach',
+        desciption: "Implemented multi tenancy schema approach, for cost efficient tenancy arhitecture, using dynamic tenant registration and flyway migration to faciliate tenant configuration while versioning migration files",
+        tech: ['Kotlin','Quarkus', 'PostgreSQL', 'Flyway', 'Hibernate ORM'],
+        github: 'https://github.com/SheLearningCode/multi-tenancy-example',
+        image: '/projects/img4.png'
+    },
+    {
+        title: 'Student CRM Backend',
+        desciption: 'Developed a CRM platform, organizing students courses while maintaining the m:n relationship and utilizing CRUD operations. Secured the app using Keycloack',
+        tech: ['Kotlin', 'Quarkus', 'Docker-Compose', 'Kecloak', 'PostgreSQL', 'CRUD', 'RestAPI'],
+        github: 'https://github.com/SheLearningCode/quarkus-crm-backend-microservice',
+        image: '/projects/img6.png'
+    },
+    {
+        title: 'Responsive Portfolio',
+        desciption: "Developed personal portfolio website for showcasting skills and learning responsive design",
+        tech: ['ReaactJs','EmailJs','Vercel Hosting', 'CSS/JS'],
+        github: 'https://github.com/SheLearningCode/ivanas-responsive-portfolio',
+        external:'https://ivanas-responsive-portfolio.vercel.app/',
+        image: '/projects/img5.png'
     }
 ];
